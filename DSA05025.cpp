@@ -26,5 +26,6 @@ int main()
         
         cout << a[n] << '\n';
     }
+    
     return 0;
 }
