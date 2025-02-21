@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "cmd.exe",
+            "args": [
+                "/c",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe & echo. & echo. & echo. & echo ================= & echo Chúc em sẽ AC bài này"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}
